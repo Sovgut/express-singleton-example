@@ -1,14 +1,24 @@
 {
-  "name": "Sub.Threads",
+  "name": "express-mvc-example",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "source/index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node source"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "MVC",
+    "EXPRESS",
+    "SERVER",
+    "API",
+    "EXAMPLE"
+  ],
+  "author": {
+    "email": "dev.devua@outlook.com",
+    "name": "Sergey Sovgut",
+    "url": "https://github.com/Sovgut"
+  },
+  "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
